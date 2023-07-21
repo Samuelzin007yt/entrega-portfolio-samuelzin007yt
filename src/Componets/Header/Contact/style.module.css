@@ -1,0 +1,48 @@
+.footer__controller {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 176px;
+}
+
+.div__main {
+    margin-top: 40px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    width: 740px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    padding: 10px;
+}
+
+.div__contact {
+    line-height: 45px;
+}
+
+.div__contact h2 {
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.div__contact > img {
+    padding: 10px;
+}
+
+.container__descripition {
+    display: flex;
+    margin-left: 10px;
+    width: 485px;
+    justify-content: flex-end;
+}
+
+.container__descripition p {
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}

@@ -1,0 +1,143 @@
+.section__Main {
+    height: 21.875rem;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 50%;
+    gap: 5rem;
+}
+
+.container__Section {
+    display: flex;
+    justify-content: center;
+    height: 21.875rem;
+}
+
+.img__Banner {
+    height: 14.375rem;
+    width: 19.8rem;
+}
+
+.banner__Content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+}
+
+.banner__Content span {
+    width: 260px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.banner__Content button {
+    width: 8.125rem;
+    height: 2.4375rem;
+    border-radius: 12px;
+    border: 1px;
+    background-color: #6880FF;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.banner__Content button:hover {
+    background-color: #7C91FF;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner__Content__h2 {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: #6880FF;
+}
+
+.welcome__Content__h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    width: 335px;
+}
+
+
+.section__desc {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.container__aboutme {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.9375rem;
+    width: 62%;
+    gap: 3.4375rem;
+    height: 9.375rem;
+}
+
+.container__aboutme h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.div__desc {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.div__desc p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.div__main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+.div__cards {
+    display: flex;
+    width: 50%;
+    margin-top: 3.125rem;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+
+.div__cards > div > h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+  
+.div__render {
+    width: 710px;
+}
+  
+.cards__tecnologie {
+    display: flex;
+    gap: 2.5rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.li__cards {
+    display: flex;
+    align-items: center;
+    gap: 0.9375rem;
+    width: 210px;
+    height: 60px;
+    justify-content: center;
+    border: solid #ffffff 2px;
+    border-radius: 25px;
+}
